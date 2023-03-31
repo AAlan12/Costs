@@ -1,5 +1,6 @@
 import styles from './styles.module.css'
 import Savings from "../../objects/Savings"
+import LinkButton from '../../objects/LinkButton';
 
 
 function Home() {
@@ -9,6 +10,7 @@ function Home() {
                 Bem-vindo ao <span>Costs</span>
             </h1>
             <p>Comece a gerenciar os seus projetos agora mesmo!</p>
+            <LinkButton to="/newproject" text="Criar Projeto" />
             <Savings/>
             
         </section>
