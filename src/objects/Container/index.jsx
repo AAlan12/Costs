@@ -1,6 +1,6 @@
 import styles from './styles.module.css';
 
-function Bloco(props) {
+function Container(props) {
     return(
         <div className={`${styles.container} ${styles[props.customClass]}`}>
             {props.children}
@@ -8,4 +8,4 @@ function Bloco(props) {
     )
 }
 
-export default Bloco
+export default Container

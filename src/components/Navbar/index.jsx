@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom"
 import styles from './styles.module.css';
-import Bloco from "../../objects/Bloco"
+import Container from "../../objects/Container"
 import Logo from "../../objects/Logo"
 
 function Navbar() {
     return(
         <nav className={styles.navbar}>
-            <Bloco>
+            <Container>
                 <Link to="/">
                     <Logo/>
                 </Link>
@@ -24,7 +24,7 @@ function Navbar() {
                         <Link to="/contact">Contato</Link>
                     </li>
                 </ul>
-            </Bloco>   
+            </Container>   
         </nav>
     )
 }
