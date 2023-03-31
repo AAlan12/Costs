@@ -1,7 +1,17 @@
 :root {
     --color-negative: #222222;
+    --color-negative-dark: #000000 ;
     --color-zero: #ffffff;
+
     --color-first: #ffbb33;
     --color-second: #efefef; 
     --color-third: #7b7b7b;
+
+    --color-success-first: #155724;
+    --color-success-second: #d4edda;
+    --color-success-third: #c3e6cb;
+
+    --color-error-first: #721c24;
+    --color-error-second: #f8d7da;
+    --color-error-third: #f5c6cb;
 }

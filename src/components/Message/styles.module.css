@@ -1,0 +1,21 @@
+.message {
+    width: 100%;
+    padding: 1em;
+    border: 1px solid var(--color-negative-dark);
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 2em;
+    border-radius: 5px;
+  }
+  
+  .success {
+    color: var(--color-success-first);
+    background-color: var(--color-success-second);
+    border-color: var(--color-success-third);
+  }
+  
+  .error {
+    color: var(--color-error-first);
+    background-color: var(--color-error-second);
+    border-color: var(--color-error-third);
+  }
