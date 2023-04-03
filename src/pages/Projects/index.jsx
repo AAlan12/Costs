@@ -4,11 +4,13 @@ import { useLocation } from 'react-router-dom'
 import Container from '../../objects/Container';
 import LinkButton from '../../objects/LinkButton';
 import ProjectCard from '../../objects/ProjectCard';
+import Loading from '../../objects/Loading';
 import { useState, useEffect } from 'react'
 
 function Projects() {
 
     const [projects, setProjects] = useState([])
+    const [removeLoading, setRemoveLoading] = useState(false)
 
     const location = useLocation()
     let message = ''
@@ -27,6 +29,7 @@ function Projects() {
         .then((data) => {
             console.log(data)
             setProjects(data)
+            setRemoveLoading(true)
         })
         .catch((err) => console.log(err))
     }, [])
@@ -49,6 +52,10 @@ function Projects() {
                             key={project.id}
                         />
                     ))}
+                    {!removeLoading && <Loading/>}
+                    {removeLoading && projects.length === 0 && (
+                        <p>Não há projetos cadastrados</p>
+                    )}
             </Container>
         </div>
     )
