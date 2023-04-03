@@ -19,17 +19,6 @@
       "id": 2
     },
     {
-      "name": "Desenvolvimento do novo site",
-      "budget": "3000",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 3
-    },
-    {
       "name": "Marvel ComicShop",
       "budget": "77000",
       "category": {
@@ -39,6 +28,17 @@
       "cost": 0,
       "services": [],
       "id": 4
+    },
+    {
+      "name": "Vue Project",
+      "budget": "120000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 5
     }
   ],
   "categories": [
