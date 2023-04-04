@@ -6,6 +6,8 @@ import Loading from '../../objects/Loading'
 import Container from '../../objects/Container'
 import ProjectForm from '../../components/ProjectForm'
 import Message from '../../components/Message'
+import ServiceCard from '../../components/ServiceCard'
+import ServiceForm from '../../components/ServiceForm'
 
 
 function Project() {
