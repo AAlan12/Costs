@@ -1,0 +1,23 @@
+.company_details {
+    padding: 6.8em;
+}
+
+.company_details h1, p {
+    margin-bottom: 0.5em;
+    
+}
+
+.company_details h1 {
+    background-color: var(--color-negative);
+    color: var(--color-first);
+    padding: 0.4em;  
+}
+
+.company_container {
+    border-bottom: 1px solid var(--color-fourth);
+    padding-bottom: 1.2em;
+    margin-bottom: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
