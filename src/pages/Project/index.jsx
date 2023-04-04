@@ -121,6 +121,14 @@ function Project() {
             })
     }
 
+    function toggleProjectForm() {
+        setShowProjectForm(!showProjectForm)
+      }
+    
+      function toggleServiceForm() {
+        setShowServiceForm(!showServiceForm)
+      }
+
     return (
         <p>{project.name}</p>
     )
