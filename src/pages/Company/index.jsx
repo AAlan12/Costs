@@ -8,9 +8,10 @@ function Company() {
                 <Container customClass="column">
                     <div className={styles.company_container}>
                         <h1>Nossa Empresa</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum totam unde voluptatem. Fugit maxime cumque aspernatur omnis, eum natus placeat, labore vitae nulla corporis dolor, accusantium eius aliquid non molestias.</p>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum totam unde voluptatem. Fugit maxime cumque aspernatur omnis, eum natus placeat, labore vitae nulla corporis dolor, accusantium eius aliquid non molestias.</p>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum totam unde voluptatem. Fugit maxime cumque aspernatur omnis, eum natus placeat, labore vitae nulla corporis dolor, accusantium eius aliquid non molestias.</p>
+                        <p>Acima de tudo, é fundamental ressaltar que a consolidação das estruturas apresenta tendências no sentido de aprovar a manutenção das diversas correntes de pensamento.</p>
+                        <p>O cuidado em identificar pontos críticos no julgamento imparcial das eventualidades acarreta um processo de reformulação e modernização das direções preferenciais no sentido do progresso.</p>
+                        <p>Todas estas questões, devidamente ponderadas, levantam dúvidas sobre se o surgimento do comércio virtual agrega valor ao estabelecimento do remanejamento dos quadros funcionais.</p>
+                        <p>Desta maneira, a determinação clara de objetivos prepara-nos para enfrentar situações atípicas decorrentes das direções preferenciais no sentido do progresso.</p>
                     </div>
                 </Container>
             </div>
