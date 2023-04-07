@@ -8,7 +8,7 @@ function ContactCard({ name, icon, link }) {
         <div className={styles.contact_card}>
             <Link to={link} target="_blank" rel="noopener noreferrer">
                 {icon}
-                <h4>{name}</h4>
+                {name}
             </Link>
         </div>
     )
